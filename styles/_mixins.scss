@@ -1,0 +1,25 @@
+@import 'variables';
+
+@mixin screenXl() {
+  @media (max-width: $screenXl) {
+    @content;
+  }
+}
+
+@mixin screenLg() {
+  @media (max-width: $screenLg) {
+    @content;
+  }
+}
+
+@mixin screenMd() {
+  @media (max-width: $screenMd) {
+    @content;
+  }
+}
+
+@mixin screenSm() {
+  @media (max-width: $screenSm) {
+    @content;
+  }
+}
