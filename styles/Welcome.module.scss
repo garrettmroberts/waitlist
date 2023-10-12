@@ -1,3 +1,5 @@
+@import 'variables';
+
 .welcomePage {
   max-width: 1200px;
   display: flex;
@@ -23,6 +25,9 @@
   .icon {
     height: 50px;
     width: 50px;
-    background-color: blueviolet;
+    color: $colorTertiary;
+    background-color: $colorPrimary;
+    border-radius: 12px;
+    padding: 5px;
   }
 }
